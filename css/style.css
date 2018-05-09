@@ -1,0 +1,226 @@
+@charset "UTF-8";
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+span,
+strong,
+em,
+b,
+i,
+u,
+a,
+img,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+address,
+dialog {
+  display: block;
+}
+
+time,
+mark,
+cite,
+ruby,
+rp,
+rt {
+  display: inline;
+}
+
+html {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.6rem;
+}
+
+img {
+  border: none;
+}
+
+img,
+input,
+textarea,
+select,
+output {
+  vertical-align: middle;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #006699;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem;
+}
+
+html,
+body a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  font-size: 625%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #E9E9E9;
+}
+
+ol li,
+ul li {
+  list-style: none;
+}
+
+.warpper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.warpper header {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  display: flex;
+}
+
+.warpper header a {
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+}
+
+.warpper header a:nth-child(2) {
+  flex: 5;
+  font-size: 18px;
+}
+
+.warpper section {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  margin-top: 20px;
+}
+
+.warpper section .banner {
+  width: 100%;
+  height: 88px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.warpper section .banner span {
+  width: 100%;
+  height: 100%;
+}
+
+.warpper section .banner span img {
+  margin: 3% 0 5% 5%;
+  display: inline-block;
+  width: 19%;
+  height: 75%;
+}
+
+.warpper section .banner b {
+  margin-left: 3%;
+}
+
+.warpper section .body {
+  width: 100%;
+}
+
+.warpper section .body a {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.warpper section .body a img {
+  flex: 1;
+  padding: 20px;
+}
+
+.warpper section .body a p {
+  flex: 6;
+  border-bottom: 1px solid #cfcfcf;
+  line-height: 80px;
+}
+
+.warpper section .body a p span {
+  float: right;
+  margin-right: 5%;
+}
